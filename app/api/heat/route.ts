@@ -17,16 +17,23 @@ export async function GET(request: NextRequest) {
       );
     }
 
-    // 调用数据库函数获取 NDVI 数据
-    const { data, error } = await supabase.rpc("get_ndvi_by_bounds", {
-      min_lon: parseFloat(minLng),
-      min_lat: parseFloat(minLat),
-      max_lon: parseFloat(maxLng),
-      max_lat: parseFloat(maxLat),
-      filter_date: date || null,
-    });
+    // 直接查询 beijing_ndvi 表
+    let query = supabase
+      .from("beijing_ndvi")
+      .select("longitude, latitude, ndvi, acq_date")
+      .gte("longitude", parseFloat(minLng))
+      .lte("longitude", parseFloat(maxLng))
+      .gte("latitude", parseFloat(minLat))
+      .lte("latitude", parseFloat(maxLat));
+
+    if (date) {
+      query = query.eq("acq_date", date);
+    }
+
+    const { data, error } = await query.limit(10000);
 
     if (error) {
+      console.error("Supabase error:", error);
       throw error;
     }
 

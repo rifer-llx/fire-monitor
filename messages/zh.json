@@ -1,0 +1,70 @@
+{
+  "root": {
+    "tab1": "产品首页",
+    "tab2": "智能监测",
+    "tab3": "开源仓库",
+    "signIn": "登录",
+    "getStart": {
+      "short": "体验",
+      "long": "立刻"
+    }
+  },
+  "home": {
+    "title1": "全球火灾动态监测平台",
+    "title2": "多维热点数据监测一站式解决方案",
+    "introduction": "Firemonitor 旨在为全球范围内火灾热点及多维生态数据的动态监测和分析预测提供一个响应迅速、精准度高、性能出色的跨端可视化解决方案。"
+  },
+  "map": {
+    "browserNotSupported": "您的浏览器不支持Mapbox",
+    "searchPlaceholder": "搜索",
+    "sideMenu": {
+      "title": "Side Menu",
+      "confidence": "置信度",
+      "confidenceAll": "全部",
+      "confidenceNominal": "一般",
+      "confidenceLow": "较低",
+      "confidenceHigh": "较高",
+      "dayNight": "筛选时段",
+      "dayNightAll": "全天",
+      "dayNightDay": "白天",
+      "dayNightNight": "晚上",
+      "brightTi4": "Ti4通道亮温(K)",
+      "brightTi5": "Ti5通道亮温(K)",
+      "frp": "火灾辐射功率(MW)",
+      "windLayer": "风场图层",
+      "heatLayer": "热图图层"
+    },
+    "firePoint": {
+      "district": "受灾地区",
+      "coordinates": "火点地理坐标",
+      "confidence": "火点置信度",
+      "brightTi4": "Ti4通道亮温 (开尔文)",
+      "brightTi5": "Ti5通道亮温 (开尔文)",
+      "frp": "火灾辐射功率 (兆瓦)",
+      "ndvi": "受灾区域 NDVI",
+      "dateTime": "受灾时间",
+      "dayNight": "受灾时段",
+      "day": "白天",
+      "night": "夜晚",
+      "satellite": "监测卫星",
+      "dataSource": "数据来源",
+      "dataSourceValue": "VIIRS 375m / NOAA-21"
+    }
+  },
+  "chat": {
+    "deepThinking": "思考过程",
+    "thinking": "深度思考中...",
+    "agentPreparing": "数据分析中,预计等待30秒...",
+    "newChat": "新对话",
+    "history": "历史记录",
+    "title": "Firemonitor AI Agent",
+    "modelDesc": "基于DeepSeek-V3.2和阿里Qwen-Plus的火灾监测智能体",
+    "inputPlaceholder": "向 Firemonitor 提问世界上任意角落发生的火情状况...",
+    "welcome": "今天有什么可以帮您？",
+    "stopGeneration": "停止生成",
+    "prompts": {
+      "p1": "结合当前的气温、湿度和风速，分析中国东北地区当前的火灾扩散风险等级",
+      "p2": "澳大利亚最近的林火状况如何？火情是否会向城市方向蔓延？"
+    }
+  }
+}
