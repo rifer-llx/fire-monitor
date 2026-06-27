@@ -17,6 +17,7 @@
   "map": {
     "browserNotSupported": "Your browser does not support Mapbox",
     "searchPlaceholder": "Search",
+    "menuTitle": "Filter Controls",
     "sideMenu": {
       "title": "Filter Menu",
       "confidence": "Conf",
@@ -35,6 +36,8 @@
       "heatLayer": "Heat"
     },
     "firePoint": {
+      "title": "Fire Point Details",
+      "close": "Close",
       "district": "Affected Area",
       "coordinates": "Fire Point Coordinates",
       "confidence": "Confidence Level",
@@ -62,6 +65,7 @@
     "inputPlaceholder": "Ask anything about fire safety...",
     "welcome": "How can I help you today?",
     "stopGeneration": "Stop Generation",
+    "send": "Send",
     "prompts": {
       "p1": "Based on current temperature, humidity, and wind speed, analyze the fire spread risk level in Northeast China",
       "p2": "What is the current bushfire situation in Australia? Is the fire likely to spread toward urban areas?"
