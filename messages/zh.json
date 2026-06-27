@@ -17,6 +17,7 @@
   "map": {
     "browserNotSupported": "您的浏览器不支持Mapbox",
     "searchPlaceholder": "搜索",
+    "menuTitle": "筛选控制",
     "sideMenu": {
       "title": "Side Menu",
       "confidence": "置信度",
@@ -35,6 +36,8 @@
       "heatLayer": "热图图层"
     },
     "firePoint": {
+      "title": "火点详情",
+      "close": "关闭",
       "district": "受灾地区",
       "coordinates": "火点地理坐标",
       "confidence": "火点置信度",
@@ -62,6 +65,7 @@
     "inputPlaceholder": "向 Firemonitor 提问世界上任意角落发生的火情状况...",
     "welcome": "今天有什么可以帮您？",
     "stopGeneration": "停止生成",
+    "send": "发送",
     "prompts": {
       "p1": "结合当前的气温、湿度和风速，分析中国东北地区当前的火灾扩散风险等级",
       "p2": "澳大利亚最近的林火状况如何？火情是否会向城市方向蔓延？"
